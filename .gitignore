@@ -28,5 +28,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-/Hash Map Implementation.iml
+*.iml
 .idea/
