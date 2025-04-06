@@ -97,7 +97,8 @@ public class HashMapImplementation<K, V> implements Iterable<HashMapImplementati
     }
 
     private void resize() {
-        int newSize = buckets.size() * 2; //4 -> 8
+        int newSize = buckets.size() * 2; // 4 -> 8
+
         List<List<Entry>> newHashMap = new ArrayList<>(newSize);
         for (int i = 0; i < newSize; i++) {
             newHashMap.add(null);
